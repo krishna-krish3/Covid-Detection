@@ -1,19 +1,21 @@
-COVID-19 Detection Using X-Ray Images
+# COVID-19 Detection Using X-Ray Images
 This project focuses on detecting COVID-19 from X-ray images using a deep learning approach. The model leverages PyTorch and DenseNet architecture to classify images with high accuracy.
 
-Features
+# Features
 Preprocessing of X-ray datasets with resizing, normalization, and augmentation.
 Implementation of training, validation, and testing pipelines.
 Utilization of DenseNet for feature extraction and classification.
 Performance optimization using GPU on Google Colab.
 Visualization of training/validation loss and accuracy over epochs.
-Dataset
+
+# Dataset
 The dataset consists of 7,330 labeled X-ray images. The data is split into:
 
 Training Set: 80%
 Validation Set: 10%
 Testing Set: 10%
-Requirements
+
+# Requirements
 To run this project, you need the following libraries and tools:
 
 Python 3.8+
