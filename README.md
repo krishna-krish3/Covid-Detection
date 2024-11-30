@@ -40,22 +40,25 @@ git clone https://github.com/yourusername/covid-detection.git
 cd covid-detection
 ```
 
-Upload the dataset to the Covid_Images directory.
+Upload the dataset to the Covid_Images directory. \
 
 Run the training script:
+```bash
 python train.py
+```
 
 Evaluate the model on the test set:
+```bash
 python test.py
+```
 
-Results
-Training and validation loss/accuracy curves are visualized for performance tracking.
+## Results
+Training and validation loss/accuracy curves are visualized for performance tracking. \
 The model achieves high accuracy on the test set (update with specific metrics after evaluation).
 
-Acknowledgments
+## Acknowledgments
 The project uses pretrained DenseNet models from torchvision and data augmentation techniques for better generalization.
-Thanks to publicly available X-ray datasets for enabling this research.
 
-Future Work
-Extend the model to classify multiple lung conditions.
+## Future Work
+Extend the model to classify multiple lung conditions. \
 Improve accuracy with advanced architectures like Vision Transformers.
